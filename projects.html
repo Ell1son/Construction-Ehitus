@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title data-en="Projects — Nordvik Ehitus">Проекты — Nordvik Ehitus</title>
+    <meta
+      name="description"
+      content="Nordvik Ehitus — частная строительная компания: строительство домов, пристройки и ремонт под ключ."
+      data-en-content="Nordvik Ehitus is a private construction company: house building, extensions and turnkey renovation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="logo" href="index.html"
+          ><span class="mark"></span>Construction Ehitus</a
+        >
+        <div class="bar-right">
+          <nav class="nav">
+            <a href="index.html" data-en="Home">Главная</a
+            ><a href="services.html" data-en="Services">Услуги</a
+            ><a href="projects.html" aria-current="page" data-en="Projects"
+              >Проекты</a
+            ><a href="contacts.html" data-en="Contact">Контакты</a>
+          </nav>
+          <div
+            class="lang"
+            role="group"
+            aria-label="Язык"
+            data-en-aria-label="Language"
+          >
+            <button type="button" data-lang="ru">RU</button
+            ><button type="button" data-lang="en">EN</button>
+          </div>
+          <button
+            class="menu-btn"
+            aria-label="Меню"
+            data-en-aria-label="Menu"
+            aria-expanded="false"
+            data-en="Menu"
+          >
+            Меню
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="page-head">
+        <div class="wrap">
+          <h1 data-en="Projects">Проекты</h1>
+          <p class="lead" data-en="Examples of completed projects.">
+            Примеры выполненных объектов.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap">
+          <div
+            class="filters"
+            role="group"
+            aria-label="Фильтр проектов"
+            data-en-aria-label="Project filter"
+          >
+            <button class="chip active" data-filter="all" data-en="All">
+              Все</button
+            ><button class="chip" data-filter="build" data-en="Construction">
+              Строительство</button
+            ><button class="chip" data-filter="repair" data-en="Renovation">
+              Ремонт
+            </button>
+          </div>
+          <div class="grid">
+            <article class="card" data-type="build">
+              <div class="ph"></div>
+              <h3 data-en="Aerated concrete house, 140 m²">
+                Дом из газобетона, 140 м²
+              </h3>
+              <p data-en="Construction">Строительство</p>
+            </article>
+            <article class="card" data-type="build">
+              <div class="ph"></div>
+              <h3 data-en="Sauna with terrace, 48 m²">
+                Сауна с террасой, 48 м²
+              </h3>
+              <p data-en="Construction">Строительство</p>
+            </article>
+            <article class="card" data-type="build">
+              <div class="ph"></div>
+              <h3 data-en="Extension to a private house">
+                Пристройка к частному дому
+              </h3>
+              <p data-en="Construction">Строительство</p>
+            </article>
+            <article class="card" data-type="repair">
+              <div class="ph"></div>
+              <h3 data-en="Apartment, full renovation, 72 m²">
+                Квартира, капитальный ремонт, 72 м²
+              </h3>
+              <p data-en="Renovation">Ремонт</p>
+            </article>
+            <article class="card" data-type="repair">
+              <div class="ph"></div>
+              <h3 data-en="Office, 110 m²">Офис, 110 м²</h3>
+              <p data-en="Renovation">Ремонт</p>
+            </article>
+            <article class="card" data-type="repair">
+              <div class="ph"></div>
+              <h3 data-en="Shop, 85 m²">Магазин, 85 м²</h3>
+              <p data-en="Renovation">Ремонт</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="band">
+        <div class="wrap band-in">
+          <h2
+            data-en="Tell us about your project — we&#x27;ll come back with an estimate within 2 days"
+          >
+            Расскажите о задаче — вернёмся со сметой за 2 дня
+          </h2>
+          <a class="btn" href="contacts.html" data-en="Send a request"
+            >Оставить заявку</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap foot">
+        <div>
+          <strong>Construction Ehitus OÜ</strong
+          ><span data-en="Construction and renovation"
+            >Строительство и ремонт</span
+          >
+        </div>
+        <div>
+          <span>+372 5000 0000</span><span>info@construction.example</span>
+        </div>
+        <div>
+          <span data-en="Mon–Sat, 9:00–19:00">Пн–Сб, 9:00–19:00</span
+          ><span data-en="Tallinn, Ehitajate tee 1"
+            >г. Таллин, Ehitajate tee 1</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
